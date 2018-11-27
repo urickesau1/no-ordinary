@@ -1,3 +1,13 @@
+img:hover{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px #ff0505;
+  -moz-box-shadow:    0px 0px 30px 0px #ff0505;
+  box-shadow:         0px 0px 30px 0px #ff0505;
+}
+
+
 .box d {
 
     background-color: blue;;
@@ -20,7 +30,7 @@
 .marquee {
   background: red;
   white-space: nowrap;
-  -webkit-animation: rightThenLeft 30s linear;
+  -webkit-animation: rightThenLeft 10s linear;
 }
 
 .flow p {
@@ -332,7 +342,7 @@ h2:hover:before {
   color: #fff;
   border-radius: 5px;
   padding: 20px;
-  font-size: 150%;
+  font-size: 65%;
 }
 
 
